@@ -1,10 +1,11 @@
 function filtrarPares(arr){
-    let correto = 0;
-    let incorreto = 0;
 
 if (filtrarPares % 2 == 0){
-    return correto;
+    return 'correto';
 }else{
-    return incorreto
+    return 'incorreto';
 }
 }
+console.log(filtrarPares([2, 6, 4, 10]));
+
+// codigo errado. Não deu tempo de finalizar.
